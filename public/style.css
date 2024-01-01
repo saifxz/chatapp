@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.chat_section{
+    width: 800px;
+    max-width: 90%;
+    
+    background-color: white;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+
+}
+
+.messageArea{
+    height: 500px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.message{
+    background-color: antiquewhite;
+    border:2px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.incoming{
+    flex-direction: row;
+}
+.outgoing{
+    flex-direction: row-reverse;
+}
+
+.textclass{
+    background-color: antiquewhite;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+
+
